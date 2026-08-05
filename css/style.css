@@ -108,7 +108,11 @@ p{
     display: flex;
     justify-content: space-around;
 }
-
+.sombra,
+.bg_img
+{
+height:100vh;
+}
 .productos_recomendados{
     padding: 20px;
     background-color: var(--color4);
