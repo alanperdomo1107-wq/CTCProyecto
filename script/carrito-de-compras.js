@@ -223,8 +223,7 @@ function botonComprar(){
 		}
     
     compras.push(compra);
-    localStorage.setItem('productosRegistrados',JSON.stringify(productosRegistrados));
-
+    
     localStorage.setItem('compras',JSON.stringify(compras));
 
     mostrarCarrito()
