@@ -64,48 +64,6 @@ p{
 /* botones */
 
 
-/* header */
-
-.contenedor_header{
-    background-color: var(--color1);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px 15px;
-}
-
-.contenedor_header div{
-    display: flex;
-    align-items: center;
-}
-
-
-svg{
-    height: 30px;
-    width: 30px;
-    color: var(--color5);
-    margin: 10px 20px;
-}
-
-#flecha{
-    color: var(--color1);
-    margin-bottom: 10px;
-}
-
-.titulo{
-    font-size: 30px;
-    color: var(--color5);
-    justify-self:left;
-    white-space: nowrap;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.logo{
-    height: 30px;
-    margin: 0 20px;
-    border-radius: 50%;
-}
 
 /* Main Index */
 .bg_img{
