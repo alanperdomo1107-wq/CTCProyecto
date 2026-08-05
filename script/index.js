@@ -103,7 +103,7 @@ addEventListener('DOMContentLoaded',function(){
 	for(let i = 0;i<4;i++){
 		if(productos[i].stock != 0){
 			cantidad++
-			contenedorRecomendados.innerHTML += '<div class="row row-cols-1 row-cols-md-1 g-2"><div class="col"><div class="card"><img src="'+ productos[i].foto +'" class="card-img-top" alt="productos[i].nombre" id="imagenProductoRecomendado"><div class="card-body"><h5 class="card-title">' + productos[i].nombre + ' </h5><p class="card-text">Precio:  $'+ productos[i].precio + '<br></br> '+  productos[i].descripcion + ' <br><button type="button" class="boton" onclick="agregarCarrito(${producto.nroIdentificador})">Agregar al carrito</button<br><button type="button" class="boton" onclick="buscaElProducto(${producto.nroIdentificador})">Ver Producto</button> </p></div></div></div>'
+			contenedorRecomendados.innerHTML += '<div class="row row-cols-1 row-cols-md-1 g-2"><div class="col"><div class="card"><img src="'+ productos[i].foto +'" class="card-img-top" alt="productos[i].nombre" id="imagenProductoRecomendado"><div class="card-body"><h5 class="card-title">' + productos[i].nombre + ' </h5><p class="card-text">Precio:  $'+ productos[i].precio + '<br></br> '+  productos[i].descripcion + ' <br><button type="button" class="boton" onclick="agregarCarrito(' + productos[i].nroIdentificador + ')">Agregar al carrito</button<br><button type="button" class="boton" onclick="buscaElProducto( ' + productos[i].nroIdentificador + ')">Ver Producto</button> </p></div></div></div>'
 
     
 
