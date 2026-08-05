@@ -13,6 +13,9 @@
   margin: 0;
 }
 
+.botonsearch{
+right:10px;
+}
 a{
     text-decoration: none;
 }
@@ -37,6 +40,10 @@ p{
 }
 
 /* inputs*/
+.contenedor_productos-recomendados{
+display: flex;
+    flex-direction: row;
+}
 .input {
   color: white;
   border: 2px solid var(--color1);
@@ -104,27 +111,14 @@ p{
     margin: 20px auto;
 }
 
-.contenedor_productos-recomendados{
-    display: flex;
-    justify-content: space-around;
-}
+
 .sombra,
 .bg_img
 {
-height:100vh;
-}
-.productos_recomendados{
-    padding: 20px;
-    background-color: var(--color4);
-    border-radius: 5px;
+height:80vh;
 }
 
-.img_productos{
-    border-radius:5px;
-    height: 60px ;
-    width:  60px;
-    margin: auto;
-}
+
 
 /*Section Index*/
 
@@ -542,6 +536,8 @@ height:100vh;
     color: var(--colorbg);
     font-weight:600;
     cursor:pointer;
+width:120px;
+text-align:center;
 }
 
 .boton:hover{
